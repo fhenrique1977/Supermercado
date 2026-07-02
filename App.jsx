@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 // ── Supabase client (troque pela sua URL e chave anon) ──────────────────────
-const SUPABASE_URL = https://mivrvnarzjcefcqsgcwp.supabase.co/rest/v1/;
+const SUPABASE_URL = "https://mivrvnarzjcefcqsgcwp.supabase.co/rest/v1/";
 const SUPABASE_ANON_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1pdnJ2bmFyempjZWZjcXNnY3dwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5MzgzODMsImV4cCI6MjA5ODUxNDM4M30.7DJNLgf4rEGzEq95m_J6tfK9mdulpW0uSz1jRqCEfCQ;
 
 async function supabase(method, path, body) {
